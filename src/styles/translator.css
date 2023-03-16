@@ -1,0 +1,45 @@
+.Translator-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 10px;
+    border: 4px #ccc dashed;
+    height: 450px;
+}
+
+.number-unit-card{
+    width: 97%;
+    max-width: 350px;
+}
+
+.input-numberToTranslate{
+    width: 100%;
+    font-size: 30px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+.dark .input-numberToTranslate{
+    background-color: #444;
+    color: #fff;
+}
+
+.select-systemBase{
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 19px;
+    background-color: #f5f5f5;
+    color: #555;
+    outline: none;
+    border: none;
+    border-top: #444 2px solid;
+    cursor: pointer;
+}
+.dark .select-systemBase{
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+}
